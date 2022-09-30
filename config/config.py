@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "13932924"))
+API_HASH = getenv("API_HASH","a8b1c97bf6f2978607c177e927c7cc9c")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","5744155403:AAF3YjkMnSjN9tOJoOjwlr7OoX0Dsd7kfxg")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "1001685230746"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᬊᬁ࿔•Ⓥⓘⓥⓘ•࿐ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⏤‌❥‌𝄟⃝🎸࿐✿ 𝗬🇦‌𝗦𝗛𝗩𝗔𝗡𝗧🦋⃟‌⃟𝄟⃝ ☠︎︎🔥⃝🕊👑𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫𒐫​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5715447071").split())
+    map(int, getenv("OWNER_ID", "5495180549").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/kakashi_bots_updates")
+    "SUPPORT_CHANNEL", "https://t.me/YN_YASH_MUSIC")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/kakashi_bots_support")
+    "SUPPORT_GROUP", "https://t.me/YNYASHMUSIC")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION","BQCUS9WTRw8cxf9p0rzHeXbKjERESt9zu579CnFQGjhchQgg55EY8x9JAqORgxIbMlazDfzlSji2XtiiRjOxuP94gEwqRgWnvUgiF4XyqfRHcWPFx18lnu75qv3M7Lou3HHNgNqi9w1F10yeAfRgz4-HxVsWLYF1VyqLlQykPargErw4P2cRFufZH1-GWABREg9anBnL4U8Y43GLu3le6JN3VC-YyPjCQFM23GOgQZKuBhG8c917sRnU_m8PioUjQ5uiWtF3zB9OVB7xFXKD4expdrQOTRb4pKyRBxpk28lwkh3Z7Eyv8-shycHOQxZG1lMUvPgsMgkS4zTh6ChnUtwSAAAAATnquOAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
